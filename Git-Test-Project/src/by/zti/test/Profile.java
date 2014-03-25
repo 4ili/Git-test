@@ -1,6 +1,8 @@
 package by.zti.test;
 
-public class Profile {
+import java.io.Serializable;
+
+public class Profile implements Serializable{
 	private String name;
 	private String surname;
 	
@@ -16,4 +18,4 @@ public class Profile {
 	public void setSurname(String surname) {
 		this.surname = surname;
 	}
-	}
+}
